@@ -1,4 +1,7 @@
-// vite.config.js
-export default {
-	port: 7777,
+const path = require('path');
+
+module.exports = {
+	alias: {
+		'/@/': path.resolve(__dirname, './src'),
+	},
 };
