@@ -16,7 +16,7 @@ div
 <script>
 import { useStore } from 'vuex';
 import { computed } from 'vue';
-import About from './views/About.vue';
+import About from '@/views/About.vue';
 
 export default {
 	components: {

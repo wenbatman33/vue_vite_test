@@ -1,7 +1,10 @@
-const path = require('path');
+import path from 'path';
 
 module.exports = {
-	alias: {
-		'/@/': path.resolve(__dirname, './src'),
-	},
+	// resolve: {
+	// 	alias: {
+	// 		'/@/': path.resolve(__dirname, './gfhjkl'),
+	// 	},
+	// },
+	alias: { '/@/': require('path').resolve(__dirname, 'src') },
 };
