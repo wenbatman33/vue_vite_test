@@ -1,9 +1,9 @@
 {
-  "name": "front_pc_v3",
+  "name": "vue_vite_test",
   "version": "0.0.0",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "dependencies": {
     "path": "^0.12.7",
